@@ -1,7 +1,7 @@
 {
   "name": "traning-bank",
   "version": "6.0.0",
-  engines": {
+  "engines": {
     "node": "10.x"
   },
   "scripts": {
