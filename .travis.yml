@@ -17,8 +17,8 @@ addons:
 script:
   # the following command line builds the project, runs the tests with coverage and then execute the SonarCloud analysis
   - sonar-scanner
-#deploy:
-#  provider: heroku
-#  api_key:
-#    secure: $HEROKU_API_KEY
-#  app: training-bank
+
+deploy:
+  provider: heroku
+  api_key: $HEROKU_TOKEN
+  app: afternoon-dusk-41031
